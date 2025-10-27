@@ -1,0 +1,15 @@
+
+#!/vendor
+#!/vendor/bugsnag
+/node_modules
+Homestead.yaml
+/config
+/.idea
+!/.gitignore
+/companies-database-backups
+/composer.phar
+.env
+*.zip
+*.tar.gz
+storage/templater/models.php
+public/uploads/

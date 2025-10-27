@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: supplier-gate-backend
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: BASIC_AUTH_USER
+        sync: false
+      - key: BASIC_AUTH_PASS
+        sync: false
+      - key: APP_ENV
+        value: production
+    dockerCommand: ""
